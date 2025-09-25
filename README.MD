@@ -1,4 +1,4 @@
-# Legends of Speed UI Library Example
+# RMPG UI LIBRARY.lua
 Supports PC and Mobile!
 
 ---
