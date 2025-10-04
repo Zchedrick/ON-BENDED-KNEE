@@ -14,25 +14,18 @@ local OrionLib = {
 	Flags = {},
 	Themes = {
 		Default = {
-			Main = Color3.fromRGB(25, 25, 25),
-			Second = Color3.fromRGB(32, 32, 32),
-			Stroke = Color3.fromRGB(60, 60, 60),
-			Divider = Color3.fromRGB(60, 60, 60),
-			Text = Color3.fromRGB(240, 240, 240),
-			TextDark = Color3.fromRGB(150, 150, 150)
-		},
-		DarkMirror = {
-        Main = Color3.fromRGB(20, 20, 20),
-        Second = Color3.fromRGB(40, 40, 40),
-        Stroke = Color3.fromRGB(80, 80, 80),
-        Divider = Color3.fromRGB(110, 110, 110),
-        Text = Color3.fromRGB(200, 200, 200),
-        TextDark = Color3.fromRGB(130, 130, 130),
-        Transparency = 0.12,
-        Blur = 12
-    }
+			Main = Color3.fromRGB(20, 20, 20),
+			Second = Color3.fromRGB(40, 40, 40),
+			Stroke = Color3.fromRGB(80, 80, 80),
+			Divider = Color3.fromRGB(110, 110, 110),
+			Text = Color3.fromRGB(200, 200, 200),
+			TextDark = Color3.fromRGB(130, 130, 130)
+		}
+	},
+	SelectedTheme = "Default",
+	Folder = nil,
+	SaveCfg = false
 }
-SelectedTheme = "DarkMirror",
 
 --Feather Icons https://github.com/evoincorp/lucideblox/tree/master/src/modules/util - Created by 7kayoh
 local Icons = {}
