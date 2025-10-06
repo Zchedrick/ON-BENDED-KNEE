@@ -1209,19 +1209,19 @@ function Library:Window(p)
 	Close_1.BorderSizePixel = 0
 	Close_1.LayoutOrder = 3
 	Close_1.Size = UDim2.new(0, 16,0, 16)
-	Close_1.Image = "rbxassetid://15082305656"
+	Close_1.Image = "https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=104036545755823"
 
 	ChSize_1.Name = "Size"
-	ChSize_1.Parent = Ct_1
-	ChSize_1.Active = true
-	ChSize_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
-	ChSize_1.BackgroundTransparency = 1
-	ChSize_1.BorderColor3 = Color3.fromRGB(0,0,0)
-	ChSize_1.BorderSizePixel = 0
-	ChSize_1.LayoutOrder = 1
-	ChSize_1.Size = UDim2.new(0, 16,0, 16)
-	ChSize_1.Image = "rbxassetid://15082210525"
-	ChSize_1.ImageTransparency = 0.5
+    ChSize_1.Parent = Ct_1
+    ChSize_1.Active = true
+    ChSize_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
+    ChSize_1.BackgroundTransparency = 1
+    ChSize_1.BorderColor3 = Color3.fromRGB(0,0,0)
+    ChSize_1.BorderSizePixel = 0
+    ChSize_1.LayoutOrder = 1
+    ChSize_1.Size = UDim2.new(0, 16,0, 16)
+    ChSize_1.Image = "https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=104036545755823"
+    ChSize_1.ImageTransparency = 0.5
 
 	DropdownValue_1.Name = "DropdownValue"
 	DropdownValue_1.Parent = Ct_1
